@@ -1,0 +1,278 @@
+{
+  "aggregate": {
+    "diagnostic_runtime_seconds": 812.945358099998,
+    "event_count": 60,
+    "missed_delta_r_gt_180_count": 163893,
+    "missed_delta_r_gt_180_fraction": 0.035291092892750765,
+    "missed_edge_count": 4644033,
+    "pooled_recall": 0.07250432239073294,
+    "recovered_edge_count": 363034,
+    "true_edge_count": 5007067
+  },
+  "bucket_search": {
+    "missed_outside_fraction": 0.3505679223209654,
+    "outside_count": 1628049,
+    "outside_missed": 1628049,
+    "outside_recovered": 0,
+    "searched_count": 3379018,
+    "searched_missed": 3015984,
+    "searched_recovered": 363034
+  },
+  "configuration": {
+    "bucket_width_mm": 18.0,
+    "distance": "Euclidean XYZ",
+    "final_candidates_per_source": 10,
+    "max_radial_step_mm": 180.0,
+    "outward_buckets": 10,
+    "per_target_bin_query_k": 10,
+    "same_bucket_targets_included": false,
+    "source": "unchanged src.geometry_graph.build_candidate_graph",
+    "tie_break": "target_hit_id ascending"
+  },
+  "distributions": {
+    "all": {
+      "abs_delta_phi": {
+        "count": 5007067,
+        "maximum": 3.141418929208213,
+        "mean": 0.05842250418349268,
+        "median": 0.018317587741262464,
+        "p90": 0.12987738414364902,
+        "p95": 0.20078069094244363,
+        "p99": 0.5753969825673525
+      },
+      "abs_delta_z": {
+        "count": 5007067,
+        "maximum": 5104.0,
+        "mean": 145.55516000399734,
+        "median": 96.0,
+        "p90": 353.0,
+        "p95": 406.0,
+        "p99": 1043.5
+      },
+      "delta_r": {
+        "count": 5007067,
+        "maximum": 934.2123850316174,
+        "mean": 55.31344147503608,
+        "median": 40.03713840007835,
+        "p90": 144.89635414799935,
+        "p95": 161.28708416564479,
+        "p99": 215.06465865262544
+      },
+      "distance_xyz": {
+        "count": 5007067,
+        "maximum": 5157.068623775563,
+        "mean": 171.41038919685994,
+        "median": 126.09639430898535,
+        "p90": 384.8197563401507,
+        "p95": 432.00451204686755,
+        "p99": 1053.1730815247076
+      }
+    },
+    "missed": {
+      "abs_delta_phi": {
+        "count": 4644033,
+        "maximum": 3.141418929208213,
+        "mean": 0.06061726698147862,
+        "median": 0.018394850381272948,
+        "p90": 0.1360813464430754,
+        "p95": 0.20953329747824703,
+        "p99": 0.6280436113677738
+      },
+      "abs_delta_z": {
+        "count": 4644033,
+        "maximum": 5104.0,
+        "mean": 155.9011992749747,
+        "median": 109.82400512695312,
+        "p90": 363.4625976562506,
+        "p95": 408.29998779296875,
+        "p99": 1046.5
+      },
+      "delta_r": {
+        "count": 4644033,
+        "maximum": 934.2123850316174,
+        "mean": 55.60120112044372,
+        "median": 39.94953162375592,
+        "p90": 145.7095538933512,
+        "p95": 161.92796680809536,
+        "p99": 221.5749598982684
+      },
+      "distance_xyz": {
+        "count": 4644033,
+        "maximum": 5157.068623775563,
+        "mean": 180.35838508254312,
+        "median": 135.68591832223333,
+        "p90": 400.64159023962617,
+        "p95": 444.7046530494494,
+        "p99": 1056.1362931194315
+      }
+    },
+    "recovered": {
+      "abs_delta_phi": {
+        "count": 363034,
+        "maximum": 0.5029595675335488,
+        "mean": 0.030346481383923023,
+        "median": 0.01724181341606079,
+        "p90": 0.08001919130382398,
+        "p95": 0.10036485321701195,
+        "p99": 0.14115871730211635
+      },
+      "abs_delta_z": {
+        "count": 363034,
+        "maximum": 1212.0999999046326,
+        "mean": 13.205716718479183,
+        "median": 7.19999885559082,
+        "p90": 27.599998474121094,
+        "p95": 38.399993896484375,
+        "p99": 136.4200439453125
+      },
+      "delta_r": {
+        "count": 363034,
+        "maximum": 175.6219778791983,
+        "mean": 51.63233918340113,
+        "median": 42.71016936358873,
+        "p90": 136.4362532189697,
+        "p95": 156.63642830413042,
+        "p99": 161.70208480302546
+      },
+      "distance_xyz": {
+        "count": 363034,
+        "maximum": 1216.9243674490701,
+        "mean": 56.945109975142515,
+        "median": 43.56515331933435,
+        "p90": 143.67889942031368,
+        "p95": 165.4086897104725,
+        "p99": 179.29157739457864
+      }
+    }
+  },
+  "dominant_primary_cause": "geometric_neighborhood_miss",
+  "environment": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+    "scipy": "1.18.1"
+  },
+  "event_ids": [
+    "event000001000",
+    "event000001001",
+    "event000001002",
+    "event000001003",
+    "event000001004",
+    "event000001005",
+    "event000001006",
+    "event000001007",
+    "event000001008",
+    "event000001009",
+    "event000001010",
+    "event000001011",
+    "event000001012",
+    "event000001013",
+    "event000001014",
+    "event000001015",
+    "event000001016",
+    "event000001017",
+    "event000001018",
+    "event000001019",
+    "event000001020",
+    "event000001021",
+    "event000001022",
+    "event000001023",
+    "event000001024",
+    "event000001025",
+    "event000001026",
+    "event000001027",
+    "event000001028",
+    "event000001029",
+    "event000001030",
+    "event000001031",
+    "event000001032",
+    "event000001033",
+    "event000001034",
+    "event000001035",
+    "event000001036",
+    "event000001037",
+    "event000001038",
+    "event000001039",
+    "event000001040",
+    "event000001041",
+    "event000001042",
+    "event000001043",
+    "event000001044",
+    "event000001045",
+    "event000001046",
+    "event000001047",
+    "event000001048",
+    "event000001049",
+    "event000001050",
+    "event000001051",
+    "event000001052",
+    "event000001053",
+    "event000001054",
+    "event000001055",
+    "event000001056",
+    "event000001057",
+    "event000001058",
+    "event000001059"
+  ],
+  "event_recall_range": {
+    "maximum": 0.08084103944750087,
+    "median": 0.07229045923155256,
+    "minimum": 0.06696276365378767
+  },
+  "mechanisms": {
+    "missed_edge_count": 4644033,
+    "overlapping": {
+      "bucket_search_exclusion": 1628049,
+      "geometric_neighborhood_miss": 2657579,
+      "other_unclassified": 0,
+      "radial_step_exclusion": 163893,
+      "top_k_truncation": 348229
+    },
+    "primary": {
+      "bucket_search_exclusion": 1474332,
+      "geometric_neighborhood_miss": 2657579,
+      "radial_step_exclusion": 163893,
+      "top_k_truncation": 348229
+    },
+    "primary_cause_precedence": [
+      "radial_step_exclusion",
+      "bucket_search_exclusion",
+      "top_k_truncation",
+      "geometric_neighborhood_miss",
+      "other_unclassified"
+    ]
+  },
+  "milestone": "M9.2",
+  "outputs": [
+    "experiments\\results\\m9_2_summary.csv",
+    "experiments\\results\\m9_2_summary.json",
+    "experiments\\results\\m9_2_event_summary.csv",
+    "experiments\\results\\m9_2_report.md",
+    "experiments\\results\\m9_2_event000001000_edge_diagnostics.csv.gz",
+    "experiments\\figures\\m9_2_delta_r.png",
+    "experiments\\figures\\m9_2_abs_delta_phi.png",
+    "experiments\\figures\\m9_2_abs_delta_z.png",
+    "experiments\\figures\\m9_2_distance_xyz.png",
+    "experiments\\figures\\m9_2_candidate_rank.png",
+    "experiments\\figures\\m9_2_miss_mechanisms.png"
+  ],
+  "proposed_m9_3_experiment": "Run one development-only comparison against frozen M9.1 with the per-target-bin cKDTree query cap increased from 10 to 20, keeping the final per-source cap at 10, the 180 mm radial step, 18 mm buckets, ten outward buckets, XYZ ranking, and tie-break unchanged. Measure true-edge recall and candidate count/density; make no further changes in that run.",
+  "rank_categories": {
+    ">10": 348229,
+    "not_present_in_queried_neighborhood": 2657579,
+    "outside_search_region": 1638225,
+    "rank_1": 149631,
+    "rank_10": 16172,
+    "rank_2": 48110,
+    "rank_3": 30686,
+    "rank_4": 24734,
+    "rank_5": 21225,
+    "rank_6": 19776,
+    "rank_7": 18388,
+    "rank_8": 17725,
+    "rank_9": 16587
+  },
+  "split": "DEVELOPMENT",
+  "truth_definition": "particle_id != 0; consecutive by increasing transverse radius with hit_id tie-break; equal-r pairs excluded; directed outward"
+}

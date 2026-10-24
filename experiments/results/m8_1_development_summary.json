@@ -1,0 +1,13 @@
+{
+  "number_of_events": 60,
+  "failed_events": 0,
+  "score_mean": 0.13435286842286587,
+  "score_median": 0.13410288840532303,
+  "score_standard_deviation_population": 0.009222361518847807,
+  "score_minimum": 0.11401006579399109,
+  "score_maximum": 0.15982306003570557,
+  "runtime_mean_seconds": 0.662300301657524,
+  "runtime_median_seconds": 0.4500656999880448,
+  "runtime_measurement": "DBSCAN fit only (src.clustering.cluster_tracks)",
+  "total_job_wall_runtime_seconds": 272.5885192999849
+}

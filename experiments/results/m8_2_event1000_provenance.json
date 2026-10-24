@@ -1,0 +1,109 @@
+{
+  "clustering_output": {
+    "cluster_label_dtype": "int64",
+    "cluster_size_max": 49,
+    "cluster_size_mean": 5.105942480942481,
+    "cluster_size_median": 4.0,
+    "cluster_size_min": 3,
+    "n_clusters": 11544,
+    "n_labels": 120939,
+    "n_noise_hits": 61996
+  },
+  "configuration": {
+    "complete_event": true,
+    "dbscan": {
+      "eps": 0.01,
+      "metric": "euclidean",
+      "min_samples": 3
+    },
+    "event_id": "event000001000",
+    "feature_names": [
+      "x2",
+      "y2",
+      "z2"
+    ],
+    "feature_order": [
+      "x2",
+      "y2",
+      "z2"
+    ],
+    "hit_subsampling": false,
+    "representation": "unscaled XYZ",
+    "truth_used_during_clustering": false
+  },
+  "determinism": {
+    "canonical_mapping_equal": true,
+    "first_score": 0.13625134527683258,
+    "input_hashes_equal": true,
+    "raw_labels_equal": true,
+    "scores_equal": true,
+    "second_score": 0.13625134527683258,
+    "submission_mapping_equal": true
+  },
+  "environment": {
+    "numpy_version": "2.5.3",
+    "pandas_version": "3.0.6",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python_version": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+    "repository_commit": null,
+    "scikit_learn_version": "1.8.0",
+    "scipy_version": "1.18.1",
+    "trackml": {
+      "distribution_versions": {
+        "trackml": "3"
+      },
+      "module_path": "<local-venv>/Lib/site-packages/trackml/__init__.py",
+      "source_revision": null
+    }
+  },
+  "event_id": "event000001000",
+  "features": {
+    "dtype": "float64",
+    "names": [
+      "x2",
+      "y2",
+      "z2"
+    ],
+    "order": "x2, y2, z2; input hit row order preserved",
+    "shape": [
+      120939,
+      3
+    ]
+  },
+  "fingerprints": {
+    "canonical_cluster_mapping_sha256": "1f226df86951923f741d9b22d21b0f66dbaa634818ab662cf7ec355776616ad8",
+    "canonical_mapping_sha256_file_sha256": "b1058bcd17118f128caf8c5527fd2c83e8f7ac8e92b168406a16a52c2b484745",
+    "canonical_submission_mapping_sha256": "2d40716b812ca201239ad22480a0bfce4b943eb42b8361229c50fabf72fb14c9",
+    "cluster_labels_file_sha256": "aff33d8fae77924add16322b2898a5a227ec204c330a9aae57d2592bb763d795",
+    "feature_file_sha256": "050f7f1c5eafcc8ea39b61f50081a09f1e7e330bc41091ae5331ce4575312818",
+    "feature_matrix_sha256": "3796a60b262fd7207475ad9e97e23d195d1e04a344fd3b893220753046e1ce49",
+    "raw_dbscan_labels_sha256": "bcc35e90f970aabef5c3ac91acdd96c3c4cf5f0c1359cf9b87e51f3f077c1167",
+    "raw_input_hit_id_sha256": "97aa8ebb7a873339f7fac9a2bb71e6f1c741410ca50f1e3e7ea24f0bd00439e1",
+    "scorer_truth_input_sha256": "13f077030ddaef0522c874e8ee5875ac2b1a75086779fd599cb09299844945e6",
+    "submission_file_sha256": "21991d5e4085b0b2615a17f5d0462fbd7bcd4c45f9f48be5c80c58b5ff8e4283"
+  },
+  "first_run_timestamp_utc": null,
+  "input": {
+    "hit_rows": 120939,
+    "raw_input_hit_id_dtype": "int32",
+    "unique_hit_ids": 120939
+  },
+  "official_score": {
+    "scorer": "trackml.score.score_event",
+    "submission_rows": 120939,
+    "submission_unique_hit_ids": 120939,
+    "truth_rows": 120939,
+    "truth_unique_hit_ids": 120939,
+    "value": 0.13625134527683258
+  },
+  "runner_timestamp_utc": "2026-10-08T03:23:38.376320+00:00",
+  "submission": {
+    "artifact_scored": "experiments\\results\\m8_2_event1000_submission.csv",
+    "columns": [
+      "hit_id",
+      "track_id"
+    ],
+    "rows": 120939,
+    "unique_hit_ids": 120939
+  }
+}

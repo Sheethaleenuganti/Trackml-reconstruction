@@ -1,0 +1,7 @@
+stage,true_edges_remaining,lost_at_stage,denominator_all_true_edges
+all_true_edges,5007067,0,5007067
+target_bin_searched,3379018,1628049,5007067
+returned_by_query20,1082755,2296263,5007067
+passed_radial_filter,1076708,6047,5007067
+merged_candidate_pool,1076708,0,5007067
+survived_final_top10,363034,713674,5007067

@@ -1,0 +1,24 @@
+# Configuration for the original focused dataset-exploration notebook.
+# M7–M9 multi-event experiments use the fixed event-split manifest.
+
+project_version: "step3-dataset-exploration"
+
+dataset:
+  source: "Kaggle trackml-particle-identification competition"
+  archive: "train_sample.zip"
+  version: "100 complete events (event000001000 through event000001099)"
+  license: "TO VERIFY against current Kaggle competition rules"
+  real_data_dir: "data/raw"
+  synthetic_data_dir: "data/interim/synthetic"
+
+random_seed: 42
+
+# The original exploration notebook focuses on the complete M5 reference event.
+single_event_inspection:
+  event_id: 1000
+
+# M7–M9 multi-event runs use experiments/results/event_split_manifest.csv.
+profiling_event_ids: [1000]
+
+track_visualization:
+  n_particles_to_show: 8

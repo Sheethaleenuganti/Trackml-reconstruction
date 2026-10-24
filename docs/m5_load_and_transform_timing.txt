@@ -1,0 +1,22 @@
+M5 — Real event load + transform timing (event 1000)
+======================================================================
+Event ID: 1000
+n_hits: 120939
+n_particles (rows): 12263
+n_unique_particle_id: 2564
+n_truth_rows: 120939
+Load time: 1.6556 seconds
+Transform time: 0.0073 seconds
+Transformed hits: 120939
+
+Transform diagnostics:
+  n_hits: 120939
+  x2_n_nan: 0
+  y2_n_nan: 0
+  z2_n_nan: 0
+  x2_min: -0.9999914478748039
+  x2_max: 0.9999023634048657
+  y2_min: -0.9998944425710735
+  y2_max: 0.9998818159774012
+  z2_min: -42.54641506087046
+  z2_max: 47.910239267910896

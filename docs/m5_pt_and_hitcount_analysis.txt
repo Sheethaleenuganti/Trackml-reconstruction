@@ -1,0 +1,18 @@
+M5 -- pT and hit-count post-hoc analysis (event 1000, best config: xyz eps=0.01 min_samples=3)
+======================================================================
+Unambiguous particles: 847
+Of these, recovered as SOME cluster's majority at all: 613 (72.4%)
+
+--- pT BINS (using literature-informed bins, verified against actual observed distribution) ---
+       pt_bin  n_particles  n_recovered  mean_efficiency  mean_purity  recovery_rate
+ low (pT<0.3)          267          145         0.316635     0.721111       0.543071
+mid (0.3-1.0)          413          325         0.364845     0.698683       0.786925
+high (pT>1.0)          167          143         0.602066     0.714898       0.856287
+
+--- HIT-COUNT BINS ---
+nhits_bin  n_particles  n_recovered  mean_efficiency  mean_purity  recovery_rate
+      4-6           19            8         0.543750     0.679167       0.421053
+     7-10          150           86         0.385927     0.647005       0.573333
+      11+          582          516         0.408028     0.719227       0.886598
+
+NOTE: single-event, ~2500-particle sample. No causal claims -- descriptive only.

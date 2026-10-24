@@ -1,0 +1,21 @@
+M4 — PHYSICS VALIDATION
+======================================================================
+Checking 10 tracks for physical sanity after transformation:
+
+  particle_id=4510330000000000: n_hits=12, r2_monotonic=True, r1_monotonic=True, no_bad_values=True, hit_ids_aligned=True  [OK]
+  particle_id=94578000000000000: n_hits=11, r2_monotonic=True, r1_monotonic=True, no_bad_values=True, hit_ids_aligned=True  [OK]
+  particle_id=4510540000000000: n_hits=13, r2_monotonic=True, r1_monotonic=True, no_bad_values=True, hit_ids_aligned=True  [OK]
+  particle_id=63056600000000000: n_hits=13, r2_monotonic=True, r1_monotonic=True, no_bad_values=True, hit_ids_aligned=True  [OK]
+  particle_id=27023600000000000: n_hits=15, r2_monotonic=True, r1_monotonic=True, no_bad_values=True, hit_ids_aligned=True  [OK]
+  particle_id=27022000000000000: n_hits=15, r2_monotonic=True, r1_monotonic=True, no_bad_values=True, hit_ids_aligned=True  [OK]
+  particle_id=67555800000000000: n_hits=10, r2_monotonic=True, r1_monotonic=True, no_bad_values=True, hit_ids_aligned=True  [OK]
+  particle_id=4511850000000000: n_hits=15, r2_monotonic=True, r1_monotonic=False, no_bad_values=True, hit_ids_aligned=True  [OK]
+  particle_id=4523180000000000: n_hits=12, r2_monotonic=True, r1_monotonic=True, no_bad_values=True, hit_ids_aligned=True  [OK]
+  particle_id=337793000000000000: n_hits=13, r2_monotonic=True, r1_monotonic=True, no_bad_values=True, hit_ids_aligned=True  [OK]
+
+Overall: ALL CHECKS PASSED
+
+--- Cross-track mixing check ---
+Confirming no transformed point from one particle_id falls exactly
+on another's coordinates (would indicate accidental data mixing):
+Duplicate hit_ids across different selected tracks: 0 (expected 0 -- each hit belongs to exactly one particle_id by construction of get_track_hits)

@@ -1,0 +1,14 @@
+======================================================================
+TrackML Project — Environment Verification
+======================================================================
+Python version:      3.12.3
+Python executable:   /usr/bin/python3
+----------------------------------------------------------------------
+numpy version:       2.4.4
+pandas version:      3.0.2
+scipy version:       1.17.1
+scikit-learn version:1.8.0
+matplotlib version:  3.10.8
+----------------------------------------------------------------------
+trackml identity check: OK — official library confirmed (version=unknown, at /home/claude/trackml-library/trackml/__init__.py)
+======================================================================

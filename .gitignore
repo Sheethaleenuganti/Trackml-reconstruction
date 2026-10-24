@@ -1,0 +1,57 @@
+# Raw or derived local TrackML data; never publish event tables.
+data/raw/
+data/interim/
+data/processed/
+event?????????-hits.csv*
+event?????????-cells.csv*
+event?????????-particles.csv*
+event?????????-truth.csv*
+train_sample.zip
+test.zip
+train_*.zip
+trackml-reconstruction-*.zip
+
+# Local Python environments and generated caches.
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local secrets and credential material. A checked-in example may be used.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+
+# OS/editor/temp files.
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.tmp
+*.temp
+
+# Large generated per-hit artifacts; retain locally, publish summaries instead.
+experiments/results/m5_best_config_cluster_table.csv
+experiments/results/m8_2_event1000_cluster_labels.csv
+experiments/results/m8_2_event1000_submission.csv
+experiments/results/m8_2_event1000_features.npy
+experiments/results/m9_1_geometry_graph_edges_event*.csv.gz
+experiments/results/m9_2_event*_edge_diagnostics.csv.gz
+
+# Local checkout of the official TrackML utility library.
+trackml-library/
